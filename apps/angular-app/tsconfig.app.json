@@ -3,6 +3,10 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "paths": {
+      "@youngeagles/ui": ["../../packages/ui"],
+      "@youngeagles/utils": ["../../packages/utils"],
+    },
     "outDir": "./out-tsc/app",
     "types": [
       "node"

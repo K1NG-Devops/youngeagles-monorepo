@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-admission',
-  imports: [],
+  standalone: true,
   templateUrl: './admission.component.html',
-  styleUrl: './admission.component.css'
+  styleUrls: ['./admission.component.css']
 })
 export class AdmissionComponent {
-  currentYear = new Date().getFullYear();  
+  currentYear = new Date().getFullYear();
 }
