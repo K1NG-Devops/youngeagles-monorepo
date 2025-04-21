@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
+import { Layout } from '@youngeagles/ui';
 import Home from './pages/Home';
 import About from './pages/About';
 import Admission from './pages/Admission';

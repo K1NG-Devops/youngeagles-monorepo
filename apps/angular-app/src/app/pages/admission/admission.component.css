@@ -1,0 +1,26 @@
+.admission-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .admission-page h1 {
+    color: #1e40af; /* Tailwind blue-700 */
+    margin-bottom: 1.5rem;
+  }
+  
+  .admission-page ul,
+  .admission-page ol {
+    padding-left: 1rem;
+  }
+  
+  .admission-page li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .admission-page p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+    .admission-page a {
+        color: #1e40af; /* Tailwind blue-700 */
+        text-decoration: underline;
+    }  

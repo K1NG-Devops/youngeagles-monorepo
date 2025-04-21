@@ -9,5 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.8.1"
+  "packageManager": "pnpm@10.8.1",
+  "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "react-icons": "^5.5.0"
+  }
 }

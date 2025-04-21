@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
+// import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RiCloseCircleFill } from "react-icons/ri";
 
