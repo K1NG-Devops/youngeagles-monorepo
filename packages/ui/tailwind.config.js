@@ -26,7 +26,9 @@ module.exports = {
     },
   },
   darkMode: 'class', // or 'media'
-  plugins: [require('daisyui')],
+  plugins: [require('daisyui'), 
+    require('flowbite'),
+  ],
   daisyui: {
     themes: [
       {
