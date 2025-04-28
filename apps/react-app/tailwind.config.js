@@ -1,10 +1,14 @@
 const sharedConfig = require('../../packages/ui/tailwind.config.js');
-// const { theme, ...rest } = sharedConfig;
+const { theme, ...rest } = sharedConfig;
 
 module.exports = {
   ...sharedConfig,
-};
-
+  content: [
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
+    ...sharedConfig.content,
+  ],
+}
 
 
 
@@ -17,4 +21,14 @@ module.exports = {
 //     },
 //     plugins: [require('daisyui')],
 //   }
-  
+
+// module.exports = {
+//   content: [
+//     "./src/**/*.{js,jsx,ts,tsx}",
+//     "../../ui/components/**/*.{js,jsx}" // <-- so it picks up your shared Navbar
+//   ],
+//   theme: {
+//     extend: {},
+//   },
+//   plugins: [],
+// }

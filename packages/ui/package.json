@@ -1,13 +1,25 @@
 {
   "name": "@youngeagles/ui",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Reusable UI components for Young Eagles projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["react", "ui", "components", "tailwind", "youngeagles"],
+  "author": "Your Name",
   "license": "ISC",
+  "dependencies": {
+    "react": "^18.0.0", 
+    "react-dom": "^18.0.0",
+    "clsx": "^2.0.0" 
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
   "packageManager": "pnpm@10.8.1"
 }

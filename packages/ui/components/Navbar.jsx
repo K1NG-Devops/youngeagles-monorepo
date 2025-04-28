@@ -15,12 +15,13 @@ function Navbar() {
     setIsMenuOpen(!IsMenuOpen);
   }
   return (
-    <nav className="navbar top-0 md:sticky left-0 w-full bg-base-100 text-base-content shadow-md md:bg-slate-50">
+    <nav className="navbar top-0 md:sticky left-0 w-full bg-base-900 text-base-content shadow-md md:bg-slate-50">
       <div className="w-full max-w-7xl mx-auto px-4 flex items-center justify-between py-3">
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold text-blue-700 dark:text-blue-500 flex items-center gap-2">
           Young Eagles
         </Link>
+        
         {/* Desktop Nav */}
         <ul className="flex gap-x-4 hidden md:flex">
           <li><Link to="/" className={styles.link}>Home</Link></li>

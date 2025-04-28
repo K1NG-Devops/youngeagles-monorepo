@@ -11,6 +11,7 @@ module.exports = {
     '../../apps/**/*.{html,ts}',
     // Shared packages
     './components/**/*.{js,jsx,ts,tsx}',
+    '../packages/ui/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
     extend: {

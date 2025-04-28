@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 @import "tailwindcss";
-
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
 :root {
   font-family: 'Nunito', system-ui, sans-serif;
@@ -19,11 +18,5 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color: #213547;
-    background-color: #f7f6f6;
-  }
 }
