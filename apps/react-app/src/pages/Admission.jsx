@@ -1,11 +1,13 @@
-import { useEffect } from "react";
+import useRedirect from "../hooks/useRedirect";
 
 const Admission = () => {
-  useEffect(() => {
-    window.location.href = "http://localhost:4200/login";
-  }, []);
+  useRedirect("http://localhost:4200/login", 2000);
 
-  return null; // Nothing shown
+  return (
+    <div className="flex items-center justify-center min-h-screen">
+      <h1 className="text-2xl font-semibold">Redirecting to Login...</h1>
+    </div>
+  );
 };
 
 export default Admission;

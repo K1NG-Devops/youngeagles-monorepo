@@ -1,4 +1,5 @@
 import React from 'react';
+import MyButton from '../components/MyButton';
 import image from '../assets/society-5.0.png';
 
 
@@ -23,6 +24,7 @@ const Home = () => (
         We provide a nurturing and safe environment for children to grow, learn, and thrive.
       </p>
       <div className="mt-8 flex justify-center">
+      <MyButton />
         <h1></h1>
         </div>
     </div>
