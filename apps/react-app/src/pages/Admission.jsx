@@ -1,6 +1,11 @@
+import { useEffect } from "react";
+
 const Admission = () => {
-    return <h1>Admission Info</h1>;
-  };
-  
-  export default Admission;
-  
+  useEffect(() => {
+    window.location.href = "http://localhost:4200/login";
+  }, []);
+
+  return null; // Nothing shown
+};
+
+export default Admission;

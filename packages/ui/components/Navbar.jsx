@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { RiCloseCircleFill } from "react-icons/ri";
 
 const styles = {
-  link: "hover:text-white hover:bg-blue-500 transition-colors duration-700 px-2 py-1 rounded-lg",
+  link: "hover:text-white hover:bg-green-500 transition-colors duration-700 px-2 py-1 rounded-lg",
 };
 
 function Navbar() {
@@ -15,7 +15,7 @@ function Navbar() {
     setIsMenuOpen(!IsMenuOpen);
   }
   return (
-    <nav className="navbar top-0 md:sticky left-0 w-full bg-base-100 text-base-content shadow-md md:bg-slate-50">
+    <nav className="navbar top-0 md:sticky left-0 w-full bg-primary text-base-content shadow-md md:bg-slate-50">
       <div className="w-full max-w-7xl mx-auto px-4 flex items-center justify-between py-3">
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold text-blue-700 dark:text-blue-500 flex items-center gap-2">
