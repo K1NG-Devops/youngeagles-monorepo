@@ -1,13 +1,17 @@
-import express from 'express';
-const app = express();
-const port = 3001;
+const express = require('express');
+const cors = require('cors');
 
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.use(cors());
 app.use(express.json());
 
-app.get('/api/ping', (req, res) => {
-  res.json({ message: 'pong from Young Eagles backend!' });
+app.get('api', (req, res) => {
+  res.json({ message: 'API is running' });
 });
 
 app.listen(port, () => {
-  console.log(`🚀 API server running on http://localhost:${port}`);
-});
+  console.log(`API server is running on http://localhost:${port}`);
+}
+);
