@@ -1,0 +1,11 @@
+
+:host {
+    display: block;
+    height: 100vh;
+    background: linear-gradient(rgba(12, 12, 12, 0.309), rgba(0, 0, 0, 0.854)), url("https://i.pinimg.com/736x/9b/3e/d9/9b3ed972fb3d213457b7aae436367906.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+  }
