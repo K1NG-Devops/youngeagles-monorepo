@@ -4,7 +4,7 @@ import mysql from 'mysql2/promise'; // Import mysql2/promise for promise-based M
 const pool = mysql.createPool({
     host: 'localhost', // Database host
     user: 'root', // Database user
-    password: 'password', // Database password
+    password: '#Olivia@17', // Database password
     database: 'skydek_auth', // Database name
     waitForConnections: true, // Wait for connections
     connectionLimit: 10, // Maximum number of connections
