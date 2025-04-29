@@ -1,7 +1,7 @@
 import useRedirect from "../hooks/useRedirect";
 
 const Admission = () => {
-  useRedirect("http://localhost:4200/login", 2000);
+  useRedirect("http://localhost:4200", 2000);
 
   return (
     <div className="flex items-center justify-center min-h-screen">

@@ -26,7 +26,7 @@ function Navbar() {
           <li><Link to="/" className={styles.link}>Home</Link></li>
           <li><Link to="about" className={styles.link}>About</Link></li>
           <li><Link to="programs" className={styles.link}>Programs</Link></li>
-          <li><Link to="admission" className={styles.link}>Admission</Link></li>
+          {/* <li><Link to="admission" className={styles.link}>Admission</Link></li> */}
           <li><Link to="contact" className={styles.link}>Contact</Link></li>
         </ul>
         <div className="cursor-pointer md:hidden">
