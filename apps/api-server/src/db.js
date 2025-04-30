@@ -1,4 +1,5 @@
 import mysql from 'mysql2/promise'; // Import mysql2/promise for promise-based MySQL queries
+import db from '../db.js'; // Import the database connection pool
 // import dotenv from 'dotenv'; // Import dotenv to load environment variables
 
 const pool = mysql.createPool({
