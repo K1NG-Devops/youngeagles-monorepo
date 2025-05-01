@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class LandingComponent {
 
+  redirectToReactApp() {
+    window.location.href = 'http://localhost:5173/';
+  }
+
 }
