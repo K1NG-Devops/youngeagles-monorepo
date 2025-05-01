@@ -30,3 +30,11 @@ export class LoginComponent {
     }
   }
 }
+
+// in login.component.ts or auth.service.ts
+// const role = this.auth?.getUserRole();
+// if (this.router && role) {
+//   this.router.navigate([`/dashboard/${role}`]);
+// }
+// in login.component.ts or auth.service.ts
+// Removed duplicate declaration of 'role'
