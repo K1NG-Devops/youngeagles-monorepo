@@ -2,14 +2,14 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-landing',
-  imports: [],
   templateUrl: './landing.component.html',
-  styleUrl: './landing.component.css'
+  styleUrls: ['./landing.component.css']
 })
 export class LandingComponent {
 
-  redirectToReactApp() {
-    window.location.href = 'http://localhost:5173/';
+  // ✅ Add this method inside the class
+  goToReactHome() {
+    window.location.href = '/home'; // proxy will handle redirect
   }
 
 }
